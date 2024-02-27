@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: sans-serif;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+:root {
+  --comman-subheading-size: 45px;
+  --avg-dec-para-size: 18px;
+  --app-gold: rgb(225, 191, 0);
+  --cmn-gray: rgb(181, 181, 181);
+}
+body {
+  height: max-content;
+  background-color: black;
+}
+#root {
+  height: max-content;
+}
+.flex {
+  display: flex;
+}
+.flex-jc-c {
+  display: flex;
+  justify-content: center;
+}
+.flex-al-c {
+  display: flex;
+  align-items: center;
+}
+.flex-jc-al-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-jc-sb-al-c {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 1px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--app-gold);
+  border-radius: 100%;
+}
+@media (max-device-width: 900px), (width<900px) {
+  :root {
+    --comman-subheading-size: 30px;
+  }
+}
+/* https://technext.github.io/clark/images/bg_1.png */
