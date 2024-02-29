@@ -1,6 +1,7 @@
 .alert-container{
      position: fixed;
      top: calc(100vh - 10%);
+     top:calc(100dvh - 10%);
      background-color: rgba(255, 0, 0, 0.467);
      right: 5%;
      padding: 10px 8px;
