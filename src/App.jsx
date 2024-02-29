@@ -6,6 +6,7 @@ import Resume from "./components/resume";
 import Contact from "./components/contact";
 import useGitStatus from "./customHooks/useGitStatus";
 import Home from "./components/home";
+import Alert from "./components/alert";
 import "./app.css";
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
       {no_of_Repo > 0 && (
         <GitProvider.Provider value={{ no_of_Repo }}>
           <div className="App-wrapper">
+            <Alert message={"Under Development"} />
             <Header />
             <Home />
             <About />
