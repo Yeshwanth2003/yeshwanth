@@ -16,7 +16,7 @@ export default function App() {
       {no_of_Repo > 0 && (
         <GitProvider.Provider value={{ no_of_Repo }}>
           <div className="App-wrapper">
-            <Alert message={"Under Development"} />
+            <Alert message={"Under Development"} visible={true}/>
             <Header />
             <Home />
             <About />

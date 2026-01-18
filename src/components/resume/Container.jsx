@@ -5,6 +5,14 @@ export default function Container() {
     <>
       <div className="resume-container flex-jc-al-c">
         <div className="resume-body flex-jc-al-c">
+           <ResumeBox
+            year={"2025-2027"}
+            title={"Master of Technology in Ai"}
+            ins={"IIT Kharagpur"}
+            desc={
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique accusantium optio illum sit fuga modi soluta, doloribus dolores molestias eius corporis aut itaque velit ipsam deleniti odio aliquid cupiditate! Ea."
+            }
+          />
           <ResumeBox
             year={"2021-2025"}
             title={"Bachelor of Technology in Ai&Ds"}
